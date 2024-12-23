@@ -150,7 +150,32 @@
       <p>Publicado el: 22/11/2024 - 4:50 p.m.</p>
     </div>
   </div>
-  
+  <main class="container my-5">
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form id="formulario-contacto" class="row g-3">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo" required>
+            </div>
+            <div class="col-12">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" placeholder="Asunto del mensaje" required>
+            </div>
+            <div class="col-12">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
+</main> 
 
     <!-- Footer -->
     <footer class="text-center bg-dark text-white py-3">
