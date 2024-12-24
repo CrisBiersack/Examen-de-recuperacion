@@ -325,7 +325,7 @@ body {
     padding-bottom: 5px;
   }
   
-  /* Contenedor de las tarjetas */
+
   .intranet-container {
     display: flex;
     justify-content: center;
@@ -333,7 +333,7 @@ body {
     flex-wrap: wrap;
   }
   
-  /* Estilo de las tarjetas */
+
   .intranet-card {
     width: 250px;
     background-color: #fff;
@@ -374,7 +374,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  /* Contenedor principal */
+
   .footer-container {
     display: flex;
     justify-content: space-between;
@@ -382,7 +382,7 @@ body {
     gap: 20px;
   }
   
-  /* Logo */
+
   .footer-logo {
     text-align: center;
     max-width: 300px;
@@ -397,7 +397,7 @@ body {
     font-size: 0.9rem;
   }
   
-  /* Libro de Reclamaciones */
+
   .footer-claims h3 {
     font-size: 1.2rem;
   }
@@ -430,7 +430,7 @@ body {
     background-color: #007bff;
   }
   
-  /* Contacto */
+
   .footer-contact h3 {
     font-size: 1.2rem;
   }
@@ -449,7 +449,7 @@ body {
     text-decoration: underline;
   }
   
-  /* Sección inferior */
+
   .footer-bottom {
     text-align: center;
     margin-top: 20px;
